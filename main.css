@@ -1,0 +1,173 @@
+/* RESET */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* END RESET */
+
+/* GENERAL */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: var(--black);
+}
+
+li {
+    list-style: none;
+}
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+/* END GENERAL */
+
+/* VARIABLES */
+:root {
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --grey: #313131;
+    --1: #FF7777;
+    --2: #A4A4A4;
+    --3: #FF8BEC;
+    --4: #C787FF;
+    --5: #9CA3FF;
+    --6: #7AFFFF;
+    --7: #82FFD5;
+    --8: #84FFA5;
+    --9: #FBFB72;
+    --10: #FFB574;
+    --bacground: rgb(27, 29, 49);
+}
+/* END VARIABLES */
+
+/* INICIO */
+
+.main-page {
+    width: 100%;
+    background-color: rgb(27, 29, 49);
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: auto;
+    animation-name: body;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+}
+.items {
+    border-radius: 50%;
+    background-color: var(--black);
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.title {
+    margin: 2rem auto;
+    background-color: var(--grey);
+    border-radius: 50px;
+    width: 70%;
+    box-shadow: var(--white) 1px 1px 70px -5px;
+}
+
+.title h1 {
+    font-size: 1rem;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: var(--white);
+    margin: auto;
+}
+
+.one {
+    background-color: var(--1);
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+}
+
+.two {
+    background-color: var(--2);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 12rem;
+}
+
+.tree {
+    background-color: var(--3);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 5rem;
+}
+
+.four {
+    background-color: var(--4);
+    width: 5rem;
+    height: 5rem;
+    margin-left: 10rem;
+}
+
+.five {
+    background-color: var(--5);
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+}
+
+.six {
+    background-color: var(--6);
+    width: 8rem;
+    height: 8rem;
+    margin: auto;
+}
+
+.seven {
+    background-color: var(--7);
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem 0 2rem 8rem;
+}
+
+.eitg {
+    background-color: var(--8);
+    width: 7rem;
+    height: 7rem;
+    margin-left: 2rem;
+}
+
+.nine {
+    background-color: var(--9);
+    width: 3rem;
+    height: 3rem;
+    margin-left: 13rem;
+}
+
+.ten {
+    background-color: var(--10);
+}
+
+@keyframes body {
+    0%{background-color: var(--bacground);}
+    50%{background-color: var(--white);}
+    100%{background-color: var(--bacground);}
+}
+
+.items {
+    animation-duration: 5s;
+    animation-name: item;
+    animation-iteration-count: infinite;
+}
+
+@keyframes item {
+    0%{}
+    50%{background-color: var(--black);}
+    100%{}
+    
+}
